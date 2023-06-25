@@ -1,10 +1,11 @@
 body {
+    width: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: black;
-    background-color: rgb(140, 216, 235);
+    background-color: rgb(255, 255, 255);
 }
 svg {
     background-color: white;
@@ -12,13 +13,13 @@ svg {
     box-shadow: 50px black;
 }
 
-circle {
-    stroke: black;
-    border: 9px solid black;
+rect {
     opacity: 100px;
 }
 
 #tooltip {
+    background-color: #0e0b0b;
+    color: white;
     position: absolute;
     border: 1px solid #ccc;
     padding: 10px;
@@ -37,4 +38,6 @@ circle {
     font-family: Arial, sans-serif;
     font-size: 12px;
   }
+
+  
   
